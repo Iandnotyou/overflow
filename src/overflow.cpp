@@ -32,9 +32,9 @@ int main() {
     a = b <<= 1;
 
     try {
-	  check_overflow(a,b);
+        check_overflow(a,b);
     } catch (string &e) {
-	  cerr << e << endl;
+        cerr << e << endl;
     }
 
     return 0;
