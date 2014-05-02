@@ -5,6 +5,8 @@
 
 using namespace std;
 
+#define ull unsigned long long
+
 template <typename T>
 T check_overflow(T a, T b) {
 	T _a = a >> 8, _b = b >> 8;
@@ -21,10 +23,10 @@ T check_overflow(T a, T b) {
 
 int main() {
 
-	int a, b;
-	a = b = std::numeric_limits<int>::max();
+	ull a, b;
+	a = b = std::numeric_limits<ull>::max();
 
-    a = b /= 2;
+    a = b >>= 1;
     check_overflow(a,b);
 
     a = b <<= 1;
