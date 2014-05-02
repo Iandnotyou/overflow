@@ -1,10 +1,3 @@
-//============================================================================
-// Name        : overflow.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
 
 #include <iostream>
 #include <limits>
@@ -26,7 +19,6 @@ T check_overflow(T a, T b) {
 
 }
 
-
 int main() {
 
 	int a, b;
@@ -45,3 +37,4 @@ int main() {
 
 	return 0;
 }
+
